@@ -14,6 +14,13 @@
     color: #ffffff;
     letter-spacing: -0.4px;
 }
+.contact p{
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+    color: #ffffff;
+    letter-spacing: -0.4px;
+
+}
 
 .contact form {
     display: flex;
