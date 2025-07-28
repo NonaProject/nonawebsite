@@ -1,11 +1,14 @@
-
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #3B82F6;
   padding: 12px 24px;
-  position: relative;
+  z-index: 1000;
 }
 
 .logo {
@@ -14,7 +17,6 @@
   font-weight: bold;
 }
 
-/* Hamburger menu (hidden by default) */
 .hamburger {
   display: none;
   font-size: 28px;
@@ -22,7 +24,6 @@
   cursor: pointer;
 }
 
-/* Nav links */
 .nav-links {
   list-style: none;
   display: flex;
@@ -45,7 +46,7 @@
   background-color: #689ef5;
   color: #E0F2FE;
 }
-/* Dropdown menu */
+
 .dropdown-menu {
   display: none;
   position: absolute;
@@ -85,7 +86,7 @@
   }
 
   .dropdown:hover .dropdown-menu {
-    display: none; /* disable hover on mobile */
+    display: none;
   }
 
   .dropdown .dropdown-menu {
