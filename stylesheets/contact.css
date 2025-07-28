@@ -1,0 +1,74 @@
+.contact {
+    padding: 6rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: #f2f2f2;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+.contact h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+    color: #ffffff;
+    letter-spacing: -0.4px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact input,
+.contact textarea {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    font-family: inherit;
+}
+
+.contact input::placeholder,
+.contact textarea::placeholder {
+    color: #777;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    outline: none;
+    border-color: #4fa3ff;
+}
+
+.contact textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+.contact input[type="submit"] {
+    background-color: #4fa3ff;
+    color: #ffffff;
+    border: none;
+    padding: 0.9rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: inherit;
+    width: fit-content;
+    align-self: center; /* centers the button in the form */
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #3581d8;
+    transform: translateY(-2px);
+}
+
+.contact input[type="submit"]:active {
+    transform: translateY(1px);
+    background-color: #2b6cb0;
+}

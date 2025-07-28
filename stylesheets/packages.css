@@ -1,0 +1,65 @@
+.website-packages {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 3rem;
+    background: #f9f9fb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.package-container {
+    background: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.package-container:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+}
+
+.package-container h1 {
+    font-size: 1.75rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.package-container h2 {
+    font-size: 1.25rem;
+    color: #27ae60;
+    margin-bottom: 1rem;
+}
+
+.package-container ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.package-container ul li {
+    position: relative;
+    padding-left: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #34495e;
+}
+
+.package-container ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #27ae60;
+    font-size: 0.9rem;
+}
+
+.package-container p {
+    font-size: 0.95rem;
+    color: #7f8c8d;
+    margin-top: auto;
+    padding-top: 1rem;
+    border-top: 1px solid #ecf0f1;
+}

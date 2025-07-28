@@ -1,0 +1,24 @@
+.hero {
+    max-width: 900px;
+    margin: 4rem auto;
+    padding: 2rem 1.5rem;
+    background: transparent; /* blend into dark background */
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    color: #d0d0d0;
+    line-height: 1.7;
+    border-left: 2px solid #444; /* subtle visual anchor */
+}
+
+.hero h1 {
+    font-size: 2.25rem;
+    color: #f0f0f0;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.hero p {
+    font-size: 1.05rem;
+    color: #b0b0b0;
+    white-space: pre-line;
+}

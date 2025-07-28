@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/packages.css">
+    <link rel="stylesheet" href="stylesheets/hero.css">
+    <link rel="stylesheet" href="stylesheets/navbar.css">
+    <link rel="stylesheet" href="stylesheets/contact.css">
+    <link rel="stylesheet" href="stylesheets/marketing.css">
+</head>
+<body>
+    <nav class="navbar">
+    <div class="logo">Nona Project</div>
+
+    <div class="hamburger" id="hamburger">
+      ☰
+    </div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#">Home</a></li>
+      <li class="dropdown">
+        <a href="#">Services ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="#website-building">Get Your Website</a></li>
+          <li><a href="#marketing">Marketing/SEO</a></li>
+        </ul>
+      </li>
+      <li><a href="#hero">About Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="home">
+    <h1>The NONA Project</h1>
+    <h2>What Local Businesses Need in today's rapid-growing, demanding market</h2>
+  </div>
+  <div id="website-building" class="website-packages">
+      <div class="package-container">
+          <h1>Starter Pack</h1>
+          <h2>Price: 200€</h2>
+          <ul>
+              <li>Responsive Template</li>
+              <li>Landing Page + 2 basic pages</li>
+              <li>Contact Form</li>
+              <li>Basic SEO Optimazation</li>
+              <li>Hosting Services</li>
+            </ul>
+            <p>Doesn't contain custom modules, dynamic content, login system</p>
+        </div>
+        <div class="package-container">
+            <h1>Pro Pack</h1>
+            <h2>Price: 500€</h2>
+            <ul>
+                <li>Custom Layout (Can use template)</li>
+                <li>Up to 6 full pages</li>
+                <li>2 Custom modules (e.g. gallery/blog/faq/login)</li>
+                <li>Full SEO Optimazation</li>
+                <li>Hosting Services</li>
+                <li>Free client assistance for content management</li>
+            </ul>
+            <p>Built for ambitious workers and promising businesses</p>
+        </div>
+        <div class="package-container">
+            <h1>Custom Pack</h1>
+            <h2>Price: Starting from 800€</h2>
+            <ul>
+                <li>Fully Custom UI/UX designs</li>
+                <li>Dynamic content</li>
+                <li>Login System/User administration</li>
+                <li>Full SEO Optimazation</li>
+                <li>Hosting Services</li>
+                <li>Online Payment support/bookings</li>
+                <li>External API support</li>
+                <li>Yearly support/update</li>
+                <li>Free client assistance for content management</li>
+            </ul>
+            <p>The Service Built for truly dedicated workers and fancy businesses</p>
+        </div>
+    </div>
+    <div id="marketing" class="marketing">
+        <h1>How do we Promote YOUR product?</h1>
+        <h2>That's a good question! Well done!</h2>
+        <p>Certain Packages of the above offer the ability for promotion using ways to make your website attractive to the searching algorithm. This means that your website will be easy for users to access! This is
+            called SEO Optimaziation.
+        </p>
+    </div>
+    <div id="hero" class="hero">
+      <h1>Building the web, simply and economically.</h1>
+      <p>In today’s digital-first world, every business needs a strong online presence—but not every business can afford to spend thousands on a custom-built website.
+  
+  That’s where we come in.
+  
+  Our service offers a modern, minimalist, and cost-effective solution designed specifically for new and small businesses. We believe that clean design, smart structure, and functional simplicity should be accessible to everyone—not just big brands with big budgets.
+  
+  By leveraging reusable components, modular features, and streamlined design systems, we cut down development time and cost—without compromising on quality. You get a beautiful, fast, responsive website tailored to your goals, with the freedom to add the features you actually need, when you need them.
+  
+  No fluff. No unnecessary complexity.
+  Just honest, efficient web development that grows with your business.</p>
+      </div>
+    <div id="contact" class="contact">
+        <h1>Trust is built with communication, contact us</h1>
+        <form action="">
+            <input type="email" name="email" placeholder="Your Email">
+            <input type="text" name="subject" placeholder="Subject">
+            <textarea name="message" id="message-container"></textarea>
+            <input type="submit" value="Send!">
+        </form>
+    </div>
+  <script src="scripts/main.js"></script>
+</body>
+</html>

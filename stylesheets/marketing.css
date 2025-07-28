@@ -1,0 +1,53 @@
+.marketing {
+    max-width: 900px;
+    margin: 6rem auto;
+    padding: 3rem 2rem;
+    background: transparent; /* match dark background */
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    color: #e0e0e0;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.marketing h1 {
+    font-size: 2.25rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.marketing h2 {
+    font-size: 1.25rem;
+    color: #4fa3ff;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.marketing p {
+    font-size: 1.05rem;
+    color: #b0b0b0;
+    max-width: 750px;
+    margin: 0 auto;
+    padding-top: 0.5rem;
+}
+.marketing {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.marketing::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #444;
+    margin: 2rem auto 0;
+}
