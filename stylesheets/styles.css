@@ -12,19 +12,32 @@ html {
   scroll-behavior: smooth;
 }
 .home {
-    text-align: center;
-    padding: 6rem 2rem 4rem;
-    color: #f2f2f2;
-    background: transparent; /* blends into your dark layout */
-    font-family: 'Inter', 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 6rem 2rem 4rem;
+  color: #f2f2f2;
+  background: transparent; /* blends into your dark layout */
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+    transform: translateY(10%);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .home h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    color: #ffffff;
-    margin-bottom: 1rem;
-    letter-spacing: -0.5px;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  letter-spacing: -0.5px;
+}
+.home-texts{
+  animation: fadeIn 1.5s forwards;
 }
 
 .home h2 {
