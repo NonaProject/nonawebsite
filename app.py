@@ -13,9 +13,9 @@ def send():
     subject = request.form.get('subject')
     message = request.form.get('message')
 
-    fixed_message = f'Sender Email: {sender_email}\n {message}'
+    fixed_message = f'Sender Email: {sender_email}\n Content: {message}'
 
-    credentials = configure_email('', '', '')
+    credentials = configure_email()
     send_message(credentials, subject, fixed_message)
 
     return redirect('/')
