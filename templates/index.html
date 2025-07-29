@@ -1,24 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Nona Project</title>
-    <link rel="stylesheet" href="static/stylesheets/styles.css">
-    <link rel="stylesheet" href="static/stylesheets/packages.css">
-    <link rel="stylesheet" href="static/stylesheets/hero.css">
-    <link rel="stylesheet" href="static/stylesheets/navbar.css">
-    <link rel="stylesheet" href="static/stylesheets/contact.css">
-    <link rel="stylesheet" href="static/stylesheets/marketing.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Nona Project</title>
+  <meta name="description" content="Affordable websites for small businesses. Fast, responsive and customizable by the Nona Project.">
+  <meta property="og:title" content="The Nona Project">
+  <link rel="stylesheet" href="static/stylesheets/global.css">
 </head>
 <body>
-    <nav class="navbar">
+  <nav class="navbar">
     <div class="logo">Nona Project</div>
-
-    <div class="hamburger" id="hamburger">
-      ☰
-    </div>
-
+    <div class="hamburger" id="hamburger">☰</div>
     <ul class="nav-links" id="navLinks">
       <li><a href="#">Home</a></li>
       <li class="dropdown">
@@ -28,93 +21,109 @@
           <li><a href="#marketing">Marketing/SEO</a></li>
         </ul>
       </li>
-      <li><a href="#hero">About Us</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#about">About Us</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
+
   <div class="home">
-    <div class="home-texts">      
+    <div class="home-texts">
       <h1>The NONA Project</h1>
       <h2>What Local Businesses Need in today's rapid-growing, demanding market</h2>
+      <a href="#contact" class="btn-primary">Request a Quote</a>
     </div>
   </div>
+
   <div id="website-building" class="website-packages">
-      <div class="package-container">
-          <h1>Starter Pack</h1>
-          <h2>Price: 200€</h2>
-          <ul>
-              <li>Responsive Template</li>
-              <li>Landing Page + 2 basic pages</li>
-              <li>Contact Form</li>
-              <li>Basic SEO Optimazation</li>
-              <li>Hosting Services</li>
-            </ul>
-            <p>Doesn't contain custom modules, dynamic content, login system</p>
-        </div>
-        <div class="package-container">
-            <h1>Pro Pack</h1>
-            <h2>Price: 500€</h2>
-            <ul>
-                <li>Custom Layout (Can use template)</li>
-                <li>Up to 6 full pages</li>
-                <li>2 Custom modules (e.g. gallery/blog/faq/login)</li>
-                <li>Full SEO Optimazation</li>
-                <li>Hosting Services</li>
-                <li>Free client assistance for content management</li>
-            </ul>
-            <p>Built for ambitious workers and promising businesses</p>
-        </div>
-        <div class="package-container">
-            <h1>Custom Pack</h1>
-            <h2>Price: Starting from 800€</h2>
-            <ul>
-                <li>Fully Custom UI/UX designs</li>
-                <li>Dynamic content</li>
-                <li>Login System/User administration</li>
-                <li>Full SEO Optimazation</li>
-                <li>Hosting Services</li>
-                <li>Online Payment support/bookings</li>
-                <li>External API support</li>
-                <li>Yearly support/update</li>
-                <li>Free client assistance for content management</li>
-            </ul>
-            <p>The Service Built for truly dedicated workers and fancy businesses</p>
-        </div>
+    <div class="package-container">
+      <h1>Starter Pack</h1>
+      <h2>Price: 200€</h2>
+      <ul>
+        <li>Responsive Template</li>
+        <li>Landing Page + 2 basic pages</li>
+        <li>Contact Form</li>
+        <li>Basic SEO Optimization</li>
+        <li>Hosting Services</li>
+      </ul>
+      <p>Doesn't contain custom modules, dynamic content, or login system</p>
+      <a href="#contact" class="btn-secondary">I'm Interested</a>
     </div>
-    <div id="marketing" class="marketing">
-        <h1>How do we Promote YOUR product?</h1>
-        <h2>That's a good question! Well done!</h2>
-        <p>Certain Packages of the above offer the ability for promotion using ways to make your website attractive to the searching algorithm. This means that your website will be easy for users to access! This is
-            called SEO Optimaziation.
-        </p>
+
+    <div class="package-container">
+      <h1>Pro Pack</h1>
+      <h2>Price: 500€</h2>
+      <ul>
+        <li>Custom Layout (or use a template)</li>
+        <li>Up to 6 full pages</li>
+        <li>2 Custom modules (e.g. gallery/blog/faq/login)</li>
+        <li>Full SEO Optimization</li>
+        <li>Hosting Services</li>
+        <li>Free client assistance for content management</li>
+      </ul>
+      <p>Built for ambitious professionals and promising businesses</p>
+      <a href="#contact" class="btn-secondary">Get Started</a>
     </div>
-    <div id="hero" class="hero">
-      <h1>Building the web, simply and economically.</h1>
-      <p>In today’s digital-first world, every business needs a strong online presence—but not every business can afford to spend thousands on a custom-built website.
-  
-  That’s where we come in.
-  
-  Our service offers a modern, minimalist, and cost-effective solution designed specifically for new and small businesses. We believe that clean design, smart structure, and functional simplicity should be accessible to everyone—not just big brands with big budgets.
-  
-  By leveraging reusable components, modular features, and streamlined design systems, we cut down development time and cost—without compromising on quality. You get a beautiful, fast, responsive website tailored to your goals, with the freedom to add the features you actually need, when you need them.
-  
-  No fluff. No unnecessary complexity.
-  Just honest, efficient web development that grows with your business.</p>
-      </div>
-    <div id="contact" class="contact">
-        <h1>Ready to give digital life to your business?</h1>
-        <p>Trust is build on communication, get in touch with us!</p>
-        <form action="/send" method="POST">
-            <input type="email" name="email" placeholder="Your Email">
-            <input type="text" name="subject" placeholder="Subject">
-            <textarea name="message" id="message-container"></textarea>
-            <input type="submit" value="Send!">
-        </form>
+
+    <div class="package-container">
+      <h1>Custom Pack</h1>
+      <h2>Price: Starting from 800€</h2>
+      <ul>
+        <li>Fully Custom UI/UX design</li>
+        <li>Dynamic content</li>
+        <li>Login System/User administration</li>
+        <li>Full SEO Optimization</li>
+        <li>Hosting Services</li>
+        <li>Online Payment support/bookings</li>
+        <li>External API integration</li>
+        <li>Yearly support/updates</li>
+        <li>Free client assistance for content management</li>
+      </ul>
+      <p>The service built for dedicated professionals and premium brands</p>
+      <a href="#contact" class="btn-secondary">Build My Site</a>
     </div>
-    <footer>
-        <p>Powered by Team NONA®</p>
-        <p>Located in Athens | Greece</p>
-    </footer>
+  </div>
+
+  <div id="marketing" class="marketing">
+    <h1>How do we Promote YOUR product?</h1>
+    <h2>Simple: smart SEO for real visibility.</h2>
+    <p>Some of our packages include promotion features that enhance your site's visibility in search engines. This is called SEO Optimization — helping your future clients find you, faster.</p>
+  </div>
+
+  <div id="testimonials" class="testimonials">
+    <h2>What our clients say</h2>
+    <blockquote>"Within 5 days I had a clean, professional website up and running!" – Giannis, Coffee Shop Owner</blockquote>
+    <blockquote>"Great communication and support, even after delivery." – Eleni, Personal Trainer</blockquote>
+  </div>
+
+  <div id="about" class="hero">
+    <h1>Building the web, simply and economically.</h1>
+    <p>In today’s digital-first world, every business needs a strong online presence—but not every business can afford to spend thousands on a custom-built website.
+      That’s where we come in.
+      <br><br>
+      Our service offers a modern, minimalist, and cost-effective solution designed specifically for new and small businesses. We believe that clean design, smart structure, and functional simplicity should be accessible to everyone—not just big brands with big budgets.
+      <br><br>
+      By leveraging reusable components, modular features, and streamlined design systems, we cut down development time and cost—without compromising on quality. You get a beautiful, fast, responsive website tailored to your goals, with the freedom to add the features you actually need, when you need them.
+      <br><br>
+      No fluff. No unnecessary complexity. Just honest, efficient web development that grows with your business.</p>
+  </div>
+
+  <div id="contact" class="contact">
+    <h1>Ready to give digital life to your business?</h1>
+    <p>Trust is built on communication. Get in touch with us!</p>
+    <form action="/send" method="POST">
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="text" name="subject" placeholder="Subject" required>
+      <textarea name="message" id="message-container" placeholder="How can we help you?" required></textarea>
+      <input type="submit" value="Send!">
+    </form>
+  </div>
+
+  <footer>
+    <p>Powered by Team NONA®</p>
+    <p>Located in Athens | Greece</p>
+  </footer>
+
   <script src="static/scripts/main.js"></script>
 </body>
 </html>
